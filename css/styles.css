@@ -250,7 +250,6 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  row-gap: 48px;
 }
 
 .team-box {
