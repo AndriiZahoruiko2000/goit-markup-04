@@ -206,6 +206,7 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
+  margin-right: 0 auto;
 }
 
 .features-list_item {
@@ -295,7 +296,8 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
   margin-bottom: 48px;
 }
 
