@@ -83,6 +83,7 @@ img {
 
 .header-info_list {
   display: flex;
+  gap: 40px;
 }
 
 .logo {
@@ -135,6 +136,10 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -144,9 +149,15 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 48px;
+  width: 496px;
 }
 
 .hero-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border-radius: 4px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -169,6 +180,12 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: none;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
 }
 
 .features-list_subtitle {
@@ -178,6 +195,7 @@ img {
   color: 434455;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-list_text {
@@ -201,10 +219,17 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-list_item {
   background-color: #ffffff;
+  text-align: center;
 }
 
 .team-list_name {
@@ -213,6 +238,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  margin-bottom: 8px;
 }
 
 .team-list_job {
@@ -220,6 +247,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
 /* Portfolio */
@@ -232,6 +260,13 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .portfolio-list_subtitle {
@@ -240,6 +275,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-left: 16px;
+  margin-bottom: 8px;
 }
 
 .portfolio-list_text {
@@ -247,12 +285,21 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 /* Footer */
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-accent_logo {
@@ -265,4 +312,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+  margin-top: 8px;
 }
