@@ -205,12 +205,13 @@ img {
 
 .features-list {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
-.features-list_item {
+/* .features-list_item {
   width: calc((100% - 3 * 24px) / 4);
-}
+} */
 
 .features-list_subtitle {
   font-weight: 500;
