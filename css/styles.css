@@ -205,8 +205,7 @@ img {
 
 .features-list {
   display: flex;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px;
 }
 
 .features-list_item {
@@ -250,6 +249,7 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .team-box {
@@ -335,6 +335,7 @@ img {
 
 .footer-logo {
   display: inline-block;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
