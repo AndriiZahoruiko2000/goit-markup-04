@@ -92,7 +92,7 @@ img {
   gap: 40px;
 }
 
-.logo {
+.header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -253,7 +253,7 @@ img {
 }
 
 .team-box {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-list_item {
@@ -295,6 +295,7 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 48px;
   gap: 24px;
 }
 
@@ -303,7 +304,8 @@ img {
 }
 
 .portfolio-box {
-  padding: 32px 16px;
+  padding: 32px 0;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-list_subtitle {
@@ -335,6 +337,19 @@ img {
   flex-direction: column;
 }
 
+.footer-logo {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  margin-right: 76px;
+  margin-bottom: 16px;
+}
+
 .footer-accent_logo {
   color: #f4f4fd;
 }
@@ -346,5 +361,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  margin-top: 8px;
 }
